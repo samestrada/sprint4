@@ -22,6 +22,15 @@ public class Game {
         }
     }
 
+    public void dealAll() {
+        while (true) {
+            for (int i = 0; i < 4; i++) {
+                Card c = deck.cards.get(0);
+                columns.get(i).cards.add(c);
+            }
+        }
+    }
+
     //customDeal to setup game for testing purposes (i.e. shuffled cards are random and hard to test)
     public void customDeal(int c1, int c2, int c3, int c4) {
         columns.get(0).cards.add(deck.cards.get(c1));
