@@ -22,6 +22,17 @@ public class Deck {
         Collections.shuffle(cards, new Random(seed));
     }
 
+    public void X(int x, int y, int z, String b) {
+        Random rand = new Random();
+        x = rand.nextInt(50) + 1;
+        y = rand.nextInt(50) + 1;
+//        z = rand.nextInt(50) + 1;
+        for (int i = 0; i < 1000; i = i + x) {
+            Card c = cards.remove(i);
+            cards.add(y, c);
+        }
+    }
+
     public ArrayList<Card> dealFour() {
         ArrayList<Card> four = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
