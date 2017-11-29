@@ -9,12 +9,61 @@ public class Deck {
     public java.util.List<Card> cards = new ArrayList<>();
 
     public Deck() {
-        for(int i = 2; i < 15; i++){
-            cards.add(new Card(i,Suit.Clubs));
-            cards.add(new Card(i,Suit.Hearts));
-            cards.add(new Card(i,Suit.Diamonds));
-            cards.add(new Card(i,Suit.Spades));
-        }
+        cards.add(new Card(2, Suit.Clubs));
+        cards.add(new Card(3, Suit.Clubs));
+        cards.add(new Card(4, Suit.Clubs));
+        cards.add(new Card(5, Suit.Clubs));
+        cards.add(new Card(6, Suit.Clubs));
+        cards.add(new Card(7, Suit.Clubs));
+        cards.add(new Card(8, Suit.Clubs));
+        cards.add(new Card(9, Suit.Clubs));
+        cards.add(new Card(10, Suit.Clubs));
+        cards.add(new Card(11, Suit.Clubs));
+        cards.add(new Card(12, Suit.Clubs));
+        cards.add(new Card(13, Suit.Clubs));
+        cards.add(new Card(14, Suit.Clubs));
+
+        cards.add(new Card(2, Suit.Hearts));
+        cards.add(new Card(3, Suit.Hearts));
+        cards.add(new Card(4, Suit.Hearts));
+        cards.add(new Card(5, Suit.Hearts));
+        cards.add(new Card(6, Suit.Hearts));
+        cards.add(new Card(7, Suit.Hearts));
+        cards.add(new Card(8, Suit.Hearts));
+        cards.add(new Card(9, Suit.Hearts));
+        cards.add(new Card(10, Suit.Hearts));
+        cards.add(new Card(11, Suit.Hearts));
+        cards.add(new Card(12, Suit.Hearts));
+        cards.add(new Card(13, Suit.Hearts));
+        cards.add(new Card(14, Suit.Hearts));
+
+        cards.add(new Card(2, Suit.Diamonds));
+        cards.add(new Card(3, Suit.Diamonds));
+        cards.add(new Card(4, Suit.Diamonds));
+        cards.add(new Card(5, Suit.Diamonds));
+        cards.add(new Card(6, Suit.Diamonds));
+        cards.add(new Card(7, Suit.Diamonds));
+        cards.add(new Card(8, Suit.Diamonds));
+        cards.add(new Card(9, Suit.Diamonds));
+        cards.add(new Card(10, Suit.Diamonds));
+        cards.add(new Card(11, Suit.Diamonds));
+        cards.add(new Card(12, Suit.Diamonds));
+        cards.add(new Card(13, Suit.Diamonds));
+        cards.add(new Card(14, Suit.Diamonds));
+
+        cards.add(new Card(2, Suit.Spades));
+        cards.add(new Card(3, Suit.Spades));
+        cards.add(new Card(4, Suit.Spades));
+        cards.add(new Card(5, Suit.Spades));
+        cards.add(new Card(6, Suit.Spades));
+        cards.add(new Card(7, Suit.Spades));
+        cards.add(new Card(8, Suit.Spades));
+        cards.add(new Card(9, Suit.Spades));
+        cards.add(new Card(10, Suit.Spades));
+        cards.add(new Card(11, Suit.Spades));
+        cards.add(new Card(12, Suit.Spades));
+        cards.add(new Card(13, Suit.Spades));
+        cards.add(new Card(14, Suit.Spades));
     }
 
     public void shuffle() {
